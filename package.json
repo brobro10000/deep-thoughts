@@ -22,7 +22,8 @@
   "bugs": {
     "url": "https://github.com/brobro10000/deep-thoughts/issues"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "concurrently": "^6.2.1"
   }
 }
