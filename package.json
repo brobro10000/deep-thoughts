@@ -1,5 +1,4 @@
 {
-  "homepage": "https://reactapp-blogger.herokuapp.com/",
   "name": "deep-thoughts",
   "version": "1.0.0",
   "description": "",
@@ -10,7 +9,7 @@
     "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,8 +21,8 @@
   "bugs": {
     "url": "https://github.com/brobro10000/deep-thoughts/issues"
   },
-  "devDependencies": {},
-  "dependencies": {
+  "homepage": "https://github.com/brobro10000/deep-thoughts#readme",
+  "devDependencies": {
     "concurrently": "^6.2.1"
   }
 }
