@@ -1,4 +1,5 @@
 {
+  "homepage": "https://reactapp-blogger.herokuapp.com/",
   "name": "deep-thoughts",
   "version": "1.0.0",
   "description": "",
@@ -21,8 +22,7 @@
   "bugs": {
     "url": "https://github.com/brobro10000/deep-thoughts/issues"
   },
-  "homepage": "https://github.com/brobro10000/deep-thoughts#readme",
-  "devDependencies": {
+  "dependencies": {
     "concurrently": "^6.2.1"
   }
 }
