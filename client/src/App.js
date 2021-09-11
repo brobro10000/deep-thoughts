@@ -10,8 +10,9 @@ import Profile from './pages/Profile';
 import Signup from './pages/Signup';
 import Home from './pages/Home';
 import { setContext } from '@apollo/client/link/context';
+
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: 'https://reactapp-blogger.herokuapp.com/graphql',
 });
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem('id_token');
@@ -26,11 +27,7 @@ const client = new ApolloClient({
   link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
 });
-// async function start(){
 
-//   await client.start()
-// }
-// start()
 
 function App() {
   return (
