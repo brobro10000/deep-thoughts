@@ -1,5 +1,5 @@
 {
-  "homepage":"http://localhost:3001/graphql",
+  "homepage":"https://reactapp-blogger.herokuapp.com/graphql",
   "name": "mern-server",
   "version": "1.0.0",
   "description": "",
