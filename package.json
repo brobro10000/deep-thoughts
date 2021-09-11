@@ -1,5 +1,6 @@
 {
   "homepage": "https://reactapp-blogger.herokuapp.com/",
+  "proxy": "https://reactapp-blogger.herokuapp.com/grapql",
   "name": "deep-thoughts",
   "version": "1.0.0",
   "description": "",
